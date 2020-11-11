@@ -5,7 +5,6 @@ for i in range(t):
     l1 = list(map(int,input().split()))
     sl = []
     answer = 0
-
     for i in range(0,n):
         j = m*i
         a = l1[j:j+m]
