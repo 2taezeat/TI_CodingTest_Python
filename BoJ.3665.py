@@ -30,7 +30,6 @@ for i in range(t):
             indegree[a] -= 1
             indegree[b] += 1
 
-
     # 위상 정렬 시작
     result = []
     q = deque()
