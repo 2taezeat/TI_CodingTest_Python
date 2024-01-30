@@ -3,7 +3,7 @@ n, m = map(int, input().split())
 graph = [[INF] * (n + 1) for _ in range(n + 1)]
 print(graph)
 
-# 자기 자신에서 자기 자신으로 가는 비용은 0으로 초기화
+# 자기 자신에서 자기 자신으로 가는 비용은 0으로 초기화 #
 for a in range(1, n + 1):
     for b in range(1, n + 1):
         if a == b:
